@@ -50,6 +50,7 @@ font-weight: 700;
 .main{
     background-image: url(image/bg-1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -69,6 +70,25 @@ font-weight: 700;
     font-weight: 700;
     border-radius: 60px;
 }
+.btn1:hover{
+    background-color: rgb(236, 18, 182);
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: -6px 12px 98px -15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -6px 12px 98px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 12px 98px -15px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
 h1{
     font-weight: 700;
+}
+.apple{
+    background:linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)),url(image/background-4.jpg)no-repeat;
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+}
+.apple h1{
+    font-family: 'Lobster', cursive;
 }
