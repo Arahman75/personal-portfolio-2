@@ -23,7 +23,7 @@
 
 <body>
   <!-- start header -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg ">
     <div class="container">
       <a class="navbar-brand" href="#">New Asia Restaurant</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -33,19 +33,19 @@
       <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Trending</a>
+            <a class="nav-link" href="#special">Special Food</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Organic</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Store</a>
+            <a class="nav-link" href="#others">Others</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
 
         </ul>
@@ -58,7 +58,7 @@
   </nav>
   <!-- end header -->
   <!-- start banner -->
-  <section class="banner">
+  <section id="home" class="banner">
     <div class="container py-5">
       <div class="row py-4">
         <div class="col-lg-7 pt-5 text-center">
@@ -95,7 +95,7 @@
   </section>
   <!-- food sample end -->
 <!-- Special food start -->
-  <section class="product">
+  <section id="special" class="product">
     <div class="container py-2">
       <div class="row py-3">
         <div class="col-lg-5 m-auto text-center mb-4">
@@ -149,8 +149,8 @@
     </div>
 </section>
 <!-- Special food end -->
-
-  <section class="about">
+<!-- About start -->
+  <section id="about" class="about">
     <div class="container py-5">
       <div class="row py-5">
         <div class="col-lg-8 m-auto text-center">
@@ -161,22 +161,24 @@
       <div class="row">
         <div class="col-lg-4">
           <img src="image/society1.jpg" class="img-fluid mb-3" alt="">
-         <div class="society-info">
+         <div class="about-info">
           <h5>Clean And Fresh Food</h5>
-          <p>We have special eating room for your family and children. There are children beside the our New Asian Restaurant garden. As if your children play with funny.</p>
+          <p>We have special dining room in our restaurant for your family and children. We have a garden next to our New Asian restaurant to enjoy. Your kids can play there. Let your kids have fun.</p>
          </div>
         </div>
         <div class="col-lg-4">
           <img src="image/society2.jpg" class="img-fluid mb-3" alt="">
-          <h5>Best Quality Product</h5>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima eligendi, voluptatem corporis nisi numquam
-            deserunt ullam ipsum asperiores pariatur excepturi!</p>
+          <div class="about-info">
+            <h5>For Festival Only</h5>
+          <p>We have a large hall for any festival, wedding, aqeeqah, host etc. If you have any festival you can book our hall room. We will provide clean and fresh food for your guests. Advance thanks!!</p>
         </div>
+          </div>
         <div class="col-lg-4">
           <img src="image/society3.jpg"  class="img-fluid mb-3" alt="">
-          <h5>Best Quality Product</h5>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima eligendi, voluptatem corporis nisi numquam
-            deserunt ullam ipsum asperiores pariatur excepturi!</p>
+          <div class="about-info">
+            <h5>Enjoy With your Family</h5>
+          <p>We have special dining room in our restaurant for your family and children. We have a garden next to our New Asian restaurant to enjoy. Your kids can play there. Let your kids have fun.</p>
+          </div>
         </div>
 
       </div>
@@ -186,152 +188,116 @@
         </div>
       </div>
     </div>
+</section>
+<!-- About end -->
 
-  </section>
-
-
-  <section class="shop">
+<!-- Others start -->
+  <section id="others" class="shop">
     <div class="container">
-      <div class="row py-5">
+      <div class="row py-2">
         <div class="col-lg-8 m-auto text-center">
           <h1>Explore Our Store</h1>
-          <h6 style="color:red">Pick Your Product From Our Store</h6>
+          <h5 style="color:red">Pick Your Product From Our Store</h5>
         </div>
         <div class="row">
           <div class="col-lg-3 text-center">
             <div class="card border-0 bg-light mb-2">
               <div class="card-body">
-                <img src="image/product-1 (1).jpg" class="img-fluid" alt="">
+                <img  src="image/others2.webp" class="others-img" alt="">
               </div>
             </div>
-            <h6>Energy food</h6>
-            <p>&39.99</p>
+            <h5>Pizza</h5>
+            <p>$20.99</p>
           </div>
           <div class="col-lg-3 text-center">
             <div class="card border-0 bg-light mb-2">
               <div class="card-body">
-                <img src="image/product-1 (1).jpg" class="img-fluid" alt="">
+                <img src="image/others1.webp" class="others-img" alt="">
               </div>
             </div>
-            <h6>Energy food</h6>
-            <p>&39.99</p>
+            <h5>Burger</h5>
+            <p>$22.99</p>
           </div>
           <div class="col-lg-3 text-center">
             <div class="card border-0 bg-light mb-2">
               <div class="card-body">
-                <img src="image/product-1 (1).jpg" class="img-fluid" alt="">
+                <img src="image/others3.webp" class="others-img" alt="">
               </div>
             </div>
-            <h6>Energy food</h6>
-            <p>&39.99</p>
+            <h5>Special Burger</h5>
+            <p>$25.99</p>
           </div>
           <div class="col-lg-3 text-center">
             <div class="card border-0 bg-light mb-2">
               <div class="card-body">
-                <img src="image/product-1 (1).jpg" class="img-fluid" alt="">
+                <img src="image/others4.webp" class="others-img" alt="">
               </div>
             </div>
-            <h6>Energy food</h6>
-            <p>&39.99</p>
+            <h5>Shawarma</h5>
+            <p>$25.99</p>
           </div>
           <div class="col-lg-3 text-center">
             <div class="card border-0 bg-light mb-2">
               <div class="card-body">
-                <img src="image/product-1 (1).jpg" class="img-fluid" alt="">
+                <img src="image/others5.jpg" class="others-img" alt="">
               </div>
             </div>
-            <h6>Energy food</h6>
-            <p>&39.99</p>
+            <h5>Fruit Juices</h5>
+            <p>10$.99</p>
           </div>
           <div class="col-lg-3 text-center">
             <div class="card border-0 bg-light mb-2">
               <div class="card-body">
-                <img src="image/product-1 (1).jpg" class="img-fluid" alt="">
+                <img src="image/others6.jpg" class="others-img" alt="">
               </div>
             </div>
-            <h6>Energy food</h6>
-            <p>&39.99</p>
+            <h5>Sweet Lassi</h5>
+            <p>$15.99</p>
           </div>
           <div class="col-lg-3 text-center">
             <div class="card border-0 bg-light mb-2">
               <div class="card-body">
-                <img src="image/product-1 (1).jpg" class="img-fluid" alt="">
+                <img src="image/others7.jpg" class="others-img" alt="">
               </div>
             </div>
-            <h6>Energy food</h6>
-            <p>&39.99</p>
+            <h5>Beef Halim</h5>
+            <p>$40.99</p>
           </div>
           <div class="col-lg-3 text-center">
             <div class="card border-0 bg-light mb-2">
               <div class="card-body">
-                <img src="image/product-1 (1).jpg" class="img-fluid" alt="">
+                <img src="image/others8.png" class="others-img" alt="">
               </div>
             </div>
-            <h6>Energy food</h6>
-            <p>&39.99</p>
-          </div>
-          <div class="col-lg-3 text-center">
-            <div class="card border-0 bg-light mb-2">
-              <div class="card-body">
-                <img src="image/product-1 (1).jpg" class="img-fluid" alt="">
-              </div>
-            </div>
-            <h6>Energy food</h6>
-            <p>&39.99</p>
-          </div>
-          <div class="col-lg-3 text-center">
-            <div class="card border-0 bg-light mb-2">
-              <div class="card-body">
-                <img src="image/product-1 (1).jpg" class="img-fluid" alt="">
-              </div>
-            </div>
-            <h6>Energy food</h6>
-            <p>&39.99</p>
-          </div>
-          <div class="col-lg-3 text-center">
-            <div class="card border-0 bg-light mb-2">
-              <div class="card-body">
-                <img src="image/product-1 (1).jpg" class="img-fluid" alt="">
-              </div>
-            </div>
-            <h6>Energy food</h6>
-            <p>&39.99</p>
-          </div>
-          <div class="col-lg-3 text-center">
-            <div class="card border-0 bg-light mb-2">
-              <div class="card-body">
-                <img src="image/product-1 (1).jpg" class="img-fluid" alt="">
-              </div>
-            </div>
-            <h6>Energy food</h6>
-            <p>&39.99</p>
+            <h5>Chicken Biriyani</h5>
+            <p>$55.99</p>
           </div>
         </div>
       </div>
     </div>
     </div>
   </section>
-
-
+<!-- Others end -->
+<!-- start second banner -->
   <section class="apple py-5">
     <div class="container text-white py-5">
       <div class="row py-5">
         <div class="col-lg-6">
-          <h1 class="font-weight-bold py-3">Unlock Your Potential With Good Nutrion</h1>
-          <h6 style="color:red">Be Healthy Organic Food.</h6>
-          <button class="btn1 mt-3">More From Us</button>
+          <h1 class="font-weight-bold py-3">Stay healthy and eat fresh food and live long.</h1>
+          <h5 style="color:red">Be Healthy Fresh Food.</h5>
+          <button class="btn1 mt-3">Show me</button>
         </div>
       </div>
     </div>
   </section>
-
-
-  <section class="contact py-5">
+<!-- end second banner -->
+<!-- start contact -->
+  <section id="contact" class="contact py-5">
     <div class="container py-5">
       <div class="row py-5">
         <div class="col-lg-5 m-auto text-center">
           <h1>Contact Us</h1>
-          <h6 style="color: red">Always Be In Touch With Us</h6>
+          <h5 style="color: red">Always Be In Touch With Us</h5>
         </div>
       </div>
       <div class="row">
@@ -339,7 +305,7 @@
           <div class="row">
             <div class="col-lg-4">
               <h6>LOCATION</h6>
-              <p>New York 9911 First Street DC</p>
+              <p>Chattogram, Banshkhali</p>
               <h6>PHONE</h6>
               <p>01825370675</p>
               <h6>EMAIL</h6>
@@ -368,9 +334,9 @@
       </div>
     </div>
   </section>
-
-
-  <section class="news py-5">
+<!-- end contact -->
+<!-- start footer -->
+  <section class="footer py-5">
     <div class="container py-5">
       <div class="row">
         <div class="col-lg-9 m-auto text-center">
@@ -395,9 +361,9 @@
               <p>Always Care</p>
             </div>
             <div class="col-lg-3 py-3">
-              <h5 class="pb-3">OUR COMPANT</h5>
+              <h5 class="pb-3">OUR Service</h5>
               <p>About</p>
-              <p>News Food</p>
+              <p>Fresh Food</p>
               <p>Product</p>
             </div>
             <div class="col-lg-3 py-3">
@@ -411,12 +377,11 @@
         </div>
       </div>
       <hr>
-      <footer class="text-center">Copyright <i class="fa-regular fa-copyright"></i>2022 All Rights Reserved | This
-        Template is made with by Arahman</footer>
+      <footer class="text-center">Copyright <i class="fa-regular fa-copyright"></i>All Rights Reserved by Abdur Rahman</footer>
     </div>
   </section>
 
-
+<!-- end footer -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
